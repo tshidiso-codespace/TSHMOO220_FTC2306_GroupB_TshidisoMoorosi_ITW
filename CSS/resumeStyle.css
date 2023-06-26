@@ -1,0 +1,20 @@
+.whole {
+  background-color: #E4E6C3;
+  color: #222725;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#top {
+  background-color: #F7F7F2;
+}
+#menu {
+  background-color: #222725;
+  color: #E4E6C3;
+}
+#bottom {
+  background-color: #899878;
+  color: #E4E6C3;
+}
+
+a {
+  color: #899878;
+}
