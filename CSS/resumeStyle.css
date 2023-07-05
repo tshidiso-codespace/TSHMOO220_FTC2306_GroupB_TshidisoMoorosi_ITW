@@ -6,7 +6,7 @@
 }
 #above {
   padding-left: 100px;
-  padding-right: 500px;
+  width: 800px;
 }
 #title {
   color: #56604F;
@@ -34,7 +34,7 @@
 }
 .bodie {
   padding-left: 100px;
-  padding-right: 500px;
+  width: 800px;
 }
 
 #bottom {
