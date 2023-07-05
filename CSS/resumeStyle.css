@@ -8,6 +8,11 @@
   padding-left: 100px;
   width: 800px;
 }
+.ye {
+  background: #E4E6C3 url(https://i.ibb.co/m6f0gPH/Hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #title {
   color: #56604F;
 }
@@ -16,13 +21,12 @@
   border-radius: 50%;
   margin-left: 200px;
   overflow: hidden;
-  width: 250px;
-  height: 250px  
+  width: fit-content;
+  height: fit-content;  
   
 }
 #top img {
-  width: 100%;
-  height: 100%;
+  width: 400px;
   object-fit: cover;
 }
 #menu {
