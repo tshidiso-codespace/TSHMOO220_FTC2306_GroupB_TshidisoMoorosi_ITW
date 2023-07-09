@@ -4,9 +4,10 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
 }
+
 #above {
   padding-left: 100px;
-  width: 800px;
+  width: 500px;
 }
 .ye {
   background: #E4E6C3 url(https://i.ibb.co/m6f0gPH/Hero.jpg);
@@ -19,11 +20,9 @@
 #top {
   border: 3px solid #222725;
   border-radius: 50%;
-  margin-left: 200px;
   overflow: hidden;
   width: fit-content;
-  height: fit-content;  
-  
+  height: fit-content;   
 }
 #top img {
   width: 400px;
@@ -57,3 +56,71 @@
 a {
   color: #899878;
 }
+
+
+/*===Desktop===*/
+@media only screen and (min-width: 1025px) {
+  .ye {
+    display: flex;
+  }
+  #menu {
+    position: absolute;
+    top: 200px;
+    background: local;
+    color:#56604F;
+  }
+}
+
+
+/*===Tablet===*/
+
+@media only screen and (max-width: 1024px) {
+  #above {
+    padding-left: 75px;
+  }
+  #top {
+    margin-left: 100px; 
+  }
+  #top img {
+    width: 350px;
+  }
+  #menu {
+    padding-left: 75px;
+  }
+  .bodie {
+    padding-left: 75px;
+    width: 500px
+  }
+  #bottom {
+    padding-left: 75px;
+  }
+}
+
+/*===Mobile===*/
+
+@media only screen and (max-width: 768px) {
+  #above {
+    padding-left: 30px;
+    max-width: fit-content;
+  }
+
+  #top {
+    margin-left: 50px; 
+  }
+
+  #top img {
+    width: 200px;
+  }
+  #menu {
+    padding-left: 30px;
+    padding-right: 0;
+  }
+  .bodie {
+    padding-left: 30px;
+    max-width: fit-content;
+  }
+  #bottom {
+    padding-left: 30px;
+  }
+}
+
